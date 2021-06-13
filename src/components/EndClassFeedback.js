@@ -67,7 +67,7 @@ export default function EndClassFeedback() {
         </button>
       </div>
 
-      <Transition appear show={isOpen} as={Fragment}>
+      <Transition appear show={isOpen} as={Fragment} key="EndClassModal">
         <Dialog
           as="div"
           className="fixed inset-0 z-10 overflow-y-auto"
